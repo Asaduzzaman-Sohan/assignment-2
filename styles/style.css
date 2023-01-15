@@ -1,0 +1,782 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+
+/* Common Styles */
+
+:root {
+    --primary-color: #131313;
+    --font-weight: 700;
+}
+
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main {
+    width: 1440px;
+    margin: auto;
+}
+
+.h2 {
+    font-weight: var(--font-weight);
+    font-size: 2.8rem;
+}
+
+.common-p-style {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+
+}
+
+.primary-btn {
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border: 5px solid #FF900E;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
+.primary-btn:hover {
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FF900E;
+    padding: 20px 25px;
+    border: 5px solid #FF900E;
+    background: #FFFFFF;
+    border-radius: 8px;
+    transition: 1s ease-in-out;
+}
+
+
+
+
+
+/* -------------------------------
+    Header & Nav Styles 
+---------------------------------*/
+
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-section {
+    width: 1440px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.nav {
+
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.nav-title h2 {
+    font-weight: var(--font-weight);
+    font-size: 2.8rem;
+}
+
+
+.nav-description ul {
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.nav-description ul li {
+    padding: 0;
+}
+
+.nav-description a {
+    text-decoration: none;
+    color: #424242;
+}
+
+
+/* -------------------------
+    Architects Styles 
+-----------------------------*/
+
+.architects {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.architect-title h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.architect-description p {
+    margin: 32px 0;
+
+}
+
+.architects button {
+    margin-bottom: 50px;
+}
+
+
+/* -----------------------------
+    Main Section Style 
+---------------------------------*/
+
+.main-container {
+    display: flex;
+    align-items: center;
+    padding: 80px 70px;
+    gap: 60px;
+}
+
+.main-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.main-title {
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.main-title .span-1 {
+    font-weight: 500;
+    color: #727272;
+}
+
+.main-title .span-2 {
+    font-weight: 700;
+    color: #131313;
+}
+
+.main-title .span-3 {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.main-description {
+    margin-bottom: 32px;
+    line-height: 26px;
+}
+
+
+/* ----------------------------
+    Features Style 
+--------------------------------*/
+
+.features-container {
+    margin: 50px 0;
+    display: flex;
+    flex: 1;
+    gap: 55px;
+    position: relative;
+    align-items: center;
+}
+
+.feature-title {
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 13px;
+}
+
+.feature-description {
+    margin-bottom: 30px;
+}
+
+.article {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.feature-img img {
+    margin-left: 90px;
+    margin-bottom: 75px;
+}
+
+
+
+.feature-btn {
+    position: absolute;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 42px 45px;
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+    bottom: 0;
+    right: 440px
+}
+
+.btn-h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.btn-p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+
+
+/* ------------------------
+    Fact Style 
+----------------------------*/
+
+.fact-section {
+    margin: 130px 0;
+
+}
+
+.fact-info {
+    Width: 542px;
+    margin-bottom: 100px;
+
+}
+
+.fact-info h2 {
+    margin-bottom: 24px;
+}
+
+.fact-contaner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact {
+    box-sizing: border-box;
+    width: 241px;
+    height: 241px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.fact h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.fact p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+
+/* ---------------------------
+    Sponsor Styles
+--------------------------------- */
+
+.sponsor-info {
+    width: 542px;
+    text-align: center;
+    margin: 180px auto 50px auto;
+}
+
+.sponsor-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.icon img {
+    color: #727272;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++
+    Extra Section (Myself) 
++++++++++++++++++++++++++++++++++++++++++++*/
+
+.myself-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 130px;
+}
+
+.myself-img {
+    width: 350px;
+    text-align: center;
+
+}
+
+.myself-img img {
+    border-radius: 25%;
+}
+
+.myself-description {
+    width: 800px;
+    text-align: justify;
+}
+
+
+/* -------------------------------
+    Footer Style
+----------------------------------- */
+
+
+footer {
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 216px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+
+/* --------------------------------
+    Responsive Web Design 
+------------------------------------*/
+
+
+/* ============+++++++++++++++ Mobile Dvices ++++++++++++++++++++++++++============= */
+
+@media only screen and (max-width:576px) {
+
+    /* ++++++++++++++++++++++++++++
+        Common Design Here
+    +++++++++++++++++++++++++++++++*/
+
+    .common-p-style {
+        font-weight: 400;
+        font-size: .7rem;
+        color: #727272;
+        line-height: 12px;
+        padding: 3px 3px;
+
+    }
+
+    .primary-btn {
+        font-weight: 600;
+        font-size: .4rem;
+        cursor: pointer;
+        color: #FFFFFF;
+        padding: 7px 10px;
+        border: none;
+        background: #FF900E;
+        border-radius: 8px;
+    }
+
+    .primary-btn:hover {
+        font-weight: 600;
+        font-size: 20px;
+        cursor: pointer;
+        color: #FF900E;
+        padding: 20px 25px;
+        border: 5px solid #FF900E;
+        background: #FFFFFF;
+        border-radius: 8px;
+        transition: 1s ease-in-out;
+    }
+
+
+    /* ++++++++++++++++++++++++++++
+        Specific Design Here
+    +++++++++++++++++++++++++++++++*/
+
+
+    /* ++++++++++++++++++++++++++++
+        Header Design Here
+    +++++++++++++++++++++++++++++++*/
+
+
+    .nav-section {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .nav {
+        color: var(--primary-color);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+
+    }
+
+    .nav-title h2 {
+        font-weight: var(--font-weight);
+        font-size: 1rem;
+        padding-left: .5rem;
+    }
+
+
+    .nav-description ul {
+        list-style: none;
+        font-weight: 500;
+        font-size: .8rem;
+        padding: 5px 15px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+
+
+
+
+    /* +++++++++++++++++++++++++++
+        Architect Design
+    ++++++++++++++++++++++++++++++ */
+
+    .architects {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .architect-title h1 {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    .architect-description p {
+        margin: 2px 0;
+        padding: 2px 40px;
+
+    }
+
+    .architects img {
+        width: 100%;
+    }
+
+    .architects button {
+        margin-bottom: 5px;
+    }
+
+
+    /* ++++++++++++++++++++++++++++++++++++++
+        Main Section Responsive Design 
+    ++++++++++++++++++++++++++++++++++++++++++*/
+
+    .main {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        padding: 8px 7px;
+        gap: 6px;
+    }
+
+    .main-images {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 4px;
+    }
+
+    .main-title {
+        font-size: 1.5rem;
+        margin-bottom: 8px;
+    }
+
+    .main-title .span-1 {
+        font-weight: 500;
+        color: #727272;
+    }
+
+    .main-title .span-2 {
+        font-weight: 700;
+        color: #131313;
+    }
+
+    .main-title .span-3 {
+        font-weight: 700;
+        color: #FF900E;
+    }
+
+    .main-description {
+        margin-bottom: 6px;
+        line-height: 14px;
+        padding: 0 20px;
+    }
+
+
+
+    /* +++++++++++++++++++++++++++++
+        Feature Responsive Design
+    +++++++++++++++++++++++++++++++++ */
+
+    .h2 {
+        font-weight: var(--font-weight);
+        font-size: 1.3rem;
+    }
+
+    .features-container {
+        margin: 5px 0;
+        flex-direction: column;
+        flex: 1;
+        position: static;
+        grid-row-gap: 5px;
+        align-items: center;
+    }
+
+    .feature-title {
+        margin-bottom: 5px;
+        border-left: 2px solid #FF900E;
+        padding-left: 3px;
+    }
+
+    .feature-articles {
+        padding: 5px 10px;
+    }
+
+    .feature-description {
+        margin-bottom: 10px;
+        padding: 3px 30px;
+
+    }
+
+    .article {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        padding: 3px 40px;
+        margin-bottom: 2px;
+    }
+
+    h4 {
+        font-weight: 600;
+        font-size: 1rem;
+
+    }
+
+    .feature-img img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .feature-btn {
+        cursor: pointer;
+        position: static;
+        color: #FFFFFF;
+        padding: 7px 15px;
+        border: none;
+        background: #FF900E;
+        border-radius: 8px;
+        bottom: 0;
+
+    }
+
+    .btn-h1 {
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: #FFFFFF;
+    }
+
+    .btn-p {
+        font-weight: 500;
+        font-size: .7rem;
+        color: #FFFFFF;
+    }
+
+
+
+    /* +++++++++++++++++++++++++++++++++++
+        Fact Section Responsive Design
+    ++++++++++++++++++++++++++++++++++++++ */
+
+
+    .fact-section {
+        margin: 30px 0 3px 0;
+
+    }
+
+    .fact-info {
+        Width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+    .fact-info h2 {
+        margin-bottom: 5px;
+    }
+
+    .fact-info p {
+        padding: 0 30px;
+    }
+
+    .fact-contaner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+        justify-items: center;
+
+    }
+
+    .fact {
+        box-sizing: border-box;
+        width: 150px;
+        height: 150px;
+        border: 1px solid #FF900E;
+        border-radius: 8px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fact h2 {
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: #424242;
+    }
+
+    .fact p {
+        font-weight: 600;
+        font-size: .8rem;
+        color: #727272;
+    }
+
+
+
+    /* +++++++++++++++++++++++++++++++++++
+        Sponsor Section Responsive Design
+    ++++++++++++++++++++++++++++++++++++++ */
+
+    .sponsor-info {
+        width: 100%;
+        text-align: center;
+        margin: 50px auto 10px auto;
+    }
+
+    .sponsor-info p {
+        padding: 5px 30px;
+    }
+
+    .sponsor-icon {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .sponsor-icon img {
+        width: 8vw;
+    }
+
+    .icon img {
+        color: #727272;
+    }
+
+
+    /* ++++++++++++++++++++++++++++++++++++++++
+    Extra Section Resposive 
++++++++++++++++++++++++++++++++++++++++++++*/
+
+    .myself-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+
+
+    }
+
+    .myself-img {
+        width: 70%;
+        text-align: center;
+
+    }
+
+    .myself-img img {
+        border-radius: 25%;
+        width: 70%;
+    }
+
+    .myself-description {
+        width: 100%;
+
+    }
+
+
+    .myself-description p {
+        padding: 5px 40px;
+        text-align: justify;
+    }
+
+
+
+
+    /* +++++++++++++++++++++++++++++++++++++
+        Footer Section Responsive Design 
+    ++++++++++++++++++++++++++++++++++++++++*/
+
+    footer {
+        height: 100px;
+        background: #FFF4E7;
+        border-radius: 8px;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .footer-p {
+        font-weight: 400;
+        font-size: .5rem;
+        color: #424242;
+    }
+
+
+    /* ==== Emnie====== */
+
+
+
+}
